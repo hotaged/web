@@ -1,0 +1,26 @@
+ul {
+    font: 16pt Arial serif;
+    color: blue;
+    width: 300px;
+}
+
+ul a:link, ul a:visited {
+    text-decoration: none;
+    color: blue;
+}
+
+ul a:hover {
+    font-weight: bolder;
+    color: blue;
+}
+
+ul li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+ul a {
+    display: block;
+    border: 2px solid blue;
+    padding: 3px;
+}

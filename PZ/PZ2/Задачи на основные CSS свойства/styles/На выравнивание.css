@@ -1,0 +1,15 @@
+h1, td, #second-p {
+    text-align: center;
+}
+
+h2 {
+    text-align: right;
+}
+
+#first-p {
+    text-align: justify;
+}
+
+th {
+    text-align: left;
+}

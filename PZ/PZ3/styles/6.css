@@ -1,0 +1,34 @@
+header {
+    display: flex;
+    border: 2px dotted lightgrey;
+    color: lightgray;
+    padding-top: 15px;
+    width: 400px;
+}
+
+header img {
+    width: 25px;
+    height: 25px;
+    margin-bottom: -10px;
+}
+
+header div {
+    text-align: center;
+    margin-left: 10px;
+    image-rendering: smooth;
+}
+
+header div:hover {
+    border-color: black;
+    color: black;
+}
+
+header div:hover img {
+    width: 30px;
+    height: 30px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: inherit;
+}

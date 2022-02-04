@@ -1,0 +1,21 @@
+header {
+    display: flex;
+    background-color: orange;
+    color: white;
+    font-family: Arial, serif;
+}
+
+header div {
+    text-align: center;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+header div:hover {
+    background-color: red;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: inherit;
+}

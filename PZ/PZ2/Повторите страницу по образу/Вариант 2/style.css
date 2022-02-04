@@ -1,0 +1,29 @@
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    font: lighter 15pt "Calibri Light", serif;
+}
+
+h2 {
+   font: bolder 11.5pt "Times New Roman", serif;
+}
+
+p {
+    font: normal 13.5pt Arial, serif;
+    text-indent: 50px;
+    line-height: 30px;
+}
+
+b {
+    color: red;
+}
+
+i, h1, h2 {
+    color: blue
+}
+
+.yellow-background {
+    background-color: yellow;
+}

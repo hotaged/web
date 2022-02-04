@@ -1,0 +1,23 @@
+li {
+    list-style-type: none;
+    margin: 10px;
+    width: 150px;
+    border: 2px solid black;
+    background-color: #2F2F2F;
+}
+
+ul {
+    font: 16pt Arial serif;
+    color: white;
+}
+
+ul a:link, ul a:visited {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px;
+}
+
+ul li:hover {
+    color: black;
+    background-color: white;
+}

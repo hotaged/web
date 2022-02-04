@@ -1,0 +1,19 @@
+ul {
+    font: 16pt Arial serif;
+    color: blue;
+}
+
+ul a:link, ul a:visited {
+    text-decoration: none;
+    color: blue;
+}
+
+ul a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+ul li {
+    margin-bottom: 5px;
+    line-height: 30px;
+}

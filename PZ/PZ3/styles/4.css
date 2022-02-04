@@ -1,0 +1,39 @@
+li {
+    list-style-type: none;
+    margin: 10px;
+    width: 180px;
+    border: 2px solid deepskyblue;
+    background-color: deepskyblue;
+}
+
+ul {
+    font: 16pt Arial serif;
+    color: white;
+}
+
+ul a:link, ul a:visited {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px;
+}
+
+ul li:hover {
+    color: blue;
+    background-color: white;
+}
+
+ul li:hover::after {
+    content: "✈";
+    color: dodgerblue;
+}
+
+.selected {
+    background-color: white;
+    color: blue;
+}
+
+.selected::after {
+    content: "✈";
+    color: dodgerblue;
+}
+
