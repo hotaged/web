@@ -1,0 +1,25 @@
+div{
+    border: solid 1px red;
+}
+
+#header{
+    height: 100px;
+    overflow: hidden;
+}
+
+#content{
+    height: 300px;
+    overflow: auto;
+}
+
+#panel{
+    height: 300px;
+    width: 150px;
+    float: left;
+    overflow: auto;
+}
+
+#footer{
+    height: 30px;
+    overflow: hidden;
+}

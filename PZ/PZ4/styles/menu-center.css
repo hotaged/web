@@ -1,0 +1,27 @@
+#menu1 {
+	width: 700px;
+	border: 1px solid blue;
+	background: #2696E8;
+	margin: 0 auto;
+}
+#menu1 ul {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+
+	padding: 0;
+	margin: 0;
+}
+#menu1 li {
+	list-style-type: none;
+}
+#menu1 a {
+	padding: 10px;
+	color: white;
+	display: block;
+	text-decoration: none;
+}
+#menu1 a:hover {
+	background-color: white;
+	color: #2696E8;
+}
