@@ -1,0 +1,70 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 20px 0;
+}
+
+img {
+    width: 25%;
+    height: 20%;
+    margin-right: 1%;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+}
+
+footer {
+    padding-top: 200px;
+}
+
+body {
+    font-size: 1.4em;
+}
+
+.custom-borders {
+    border: 1px solid black;
+}
+
+.right {
+    padding-right: 25%;
+}
+
+.left {
+    padding-right: 25%;
+}
+
+.text {
+    padding: 10px 30px;
+}
+
+.menu {
+    padding: 5px 10px;
+}
+
+.menu a {
+    margin: 0 5px;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}

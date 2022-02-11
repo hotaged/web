@@ -1,0 +1,39 @@
+header {
+    padding: 30px 120px;
+    background-image: url("https://www.onhisowntrip.com/wp-content/uploads/2020/04/surf.jpg");
+    background-position: center;
+    color: white;
+}
+
+header div {
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+#site-url {
+    margin-left: 400px;
+}
+
+#site-info {
+    margin-left: 450px;
+}
+
+main {
+    font-size: 16pt;
+    display: flex;
+    margin: 20px 30px;
+}
+
+.sidebar {
+    font-size: 12pt;
+    margin-right: 20px;
+    width: 1000px;
+}
+
+.sidebar-image {
+    width: 600px;
+}
+
+.root-image {
+    width: 1200px;
+}
