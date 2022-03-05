@@ -1,0 +1,61 @@
+div {
+    font-family: Raleway;
+    font-size: 130%;
+}
+
+#header {
+    width: auto;
+    height: 500px;
+    background: url(../img/page2-1.jpeg);
+    background-size: 100%;
+    background-position: center;
+    color: white;
+}
+
+#site {
+    padding-top: 50px;
+    margin-bottom: 0px;
+    margin-left: 250px;
+}
+
+#dop-info {
+    margin-top: 0px;
+    margin-left: 280px;
+}
+
+#page {
+    margin: 0px 40px;
+    width:auto;
+    display: flex;
+    text-align: justify;
+}
+
+#panel1 {
+    height:auto;
+    padding-right: 20px;
+    margin-top: 20px;
+    width:30%;
+    float:left;
+    font-size: 100%;
+}
+
+p{
+    margin: 10px 0px;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+img {
+    position: center;
+    width: 100%;
+    height: auto;
+}
+
+#panel2 {
+    padding-left: 20px;
+    height:auto;
+    width:70%;
+    float:right;
+}

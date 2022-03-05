@@ -1,0 +1,12 @@
+p {
+    text-indent: 0.5em;
+    word-spacing: 3px; /* word-space -> word-spacing */
+    white-space: nowrap; /* no-wrap -> nowrap */
+    line-height: 1.3em; /* Установил em как единицу вычисления */
+    text-shadow: 1px 1px 1px grey;
+}
+
+p span {
+    letter-spacing: 1.3em; /* leter-spacing -> letter-spacing; 1.3 не может быть в пикселях, поменял на em */
+    text-decoration: underline wavy; /* wavi -> wavy */
+}

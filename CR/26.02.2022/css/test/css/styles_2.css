@@ -1,0 +1,12 @@
+#p_1 {
+    color: red;
+}
+
+.s_1.s_2 {
+    color: blue;
+    font-weight: bolder;
+}
+
+span[title="Селектор атрибута"] {
+    color: green;
+}

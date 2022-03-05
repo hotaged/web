@@ -1,0 +1,120 @@
+div {
+    font-family: Arial;
+    font-size: 120%;
+}
+
+body {
+    background-color: #ac8050;
+}
+
+h1 {
+    color: #ac8050;
+    margin-bottom: 10px;
+}
+
+#white {
+    background-color: white;
+    margin: 20px;
+    padding: 30px;
+    text-align: justify;
+}
+
+#menu{
+    color: white;
+    font-size: 170%;
+    background: black;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+}
+
+#menu a{
+    text-align: center;
+    padding: 40px;
+    color: white;
+    flex: 1;
+}
+
+#menu a:link, #menu a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #1e303d;
+}
+
+#image {
+    margin: 30px 0px;
+    width: auto;
+    height: 600px;
+    background: url(../img/page5-1.jpeg) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+}
+
+#text {
+    display: flex;
+}
+
+#panel1 {
+    height:auto;
+    padding-right: 30px;
+    margin-top: 0px;
+    margin-right: 10px;
+    width:65%;
+}
+
+#panel1 p {
+    margin-top: 55px;
+}
+
+#panel2 {
+    margin-top: 45px;
+    padding-left: 30px;
+    margin-left: 10px;
+    height:auto;
+    width:35%;
+    font-size: 90%;
+}
+
+.main1 {
+    background: #f0ede8;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.main2 {
+    background: #5f9fbd;
+    margin: 0px 0px;
+    padding:15px 20px;
+    color: white;
+}
+
+.main1 p {
+    padding:0px 20px;
+}
+
+h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+#footer {
+    background: #d1e4aa;
+    text-align: center;
+    padding: 25px;
+}
+
+a:hover, a:visited, a {
+    color: #98a476;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+}

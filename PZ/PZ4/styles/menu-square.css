@@ -19,12 +19,23 @@
 }
 
 #square4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.vertical {
+    display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 #square5 {
     justify-content: center;
+}
+
+.square.yellow {
+    background-color: yellow;
+    color: yellow;
 }
 
 .square.green {
@@ -42,4 +53,14 @@
 .square {
     width: 100px;
     height: 100px;
+}
+
+
+#square4 .square .green {
+    left: 0;
+}
+
+#square4 .square.red {
+    width: 150px;
+    height: 150px;
 }
